@@ -4,7 +4,7 @@ body{margin:0;font-family:Montserrat,Segoe UI,system-ui,sans-serif;color:#fff;ba
 .top h1{margin:0;font-size:1.6rem;text-transform:uppercase;letter-spacing:.02em}
 .top p{margin:2px 0 0;text-transform:uppercase;font-weight:300}
 .aviso{background:#ffdd5e;color:#00244d;padding:4px 10px;border-radius:999px;font-size:.75rem;font-weight:600}
-.grid{display:grid;grid-template-columns:240px 1fr 330px;gap:16px;padding:16px 24px 32px;max-width:1500px;margin:auto}
+.grid{display:grid;grid-template-columns:220px 1fr 290px;gap:16px;padding:16px 24px 32px;max-width:1500px;margin:auto}
 .card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:10px;padding:14px}
 .card h2{margin:0 0 8px;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em;color:#ffdd5e}
 .filtros{display:flex;flex-direction:column;gap:12px}
@@ -13,7 +13,7 @@ body{margin:0;font-family:Montserrat,Segoe UI,system-ui,sans-serif;color:#fff;ba
 label{display:flex;flex-direction:column;gap:4px;font-size:.7rem;text-transform:uppercase;color:#cfe0ff}
 select{padding:8px;border-radius:6px;border:1px solid #4a74b8;background:#00306d;color:#fff;font:inherit;font-size:.85rem}
 button{padding:9px;border:0;border-radius:6px;background:#ffdd5e;color:#00244d;font-weight:700;cursor:pointer}
-.centro{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-content:start}
+.centro{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-content:start}
 .larga{grid-column:1/-1}
 .row{display:flex;align-items:center;gap:8px;font-size:.75rem;margin:5px 0}
 .row .n{width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -22,7 +22,9 @@ button{padding:9px;border:0;border-radius:6px;background:#ffdd5e;color:#00244d;f
 .row .v{width:70px;text-align:right}
 .legenda{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.7rem;margin-top:6px}
 .legenda b{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px}
-svg{max-width:100%;height:auto;display:block;margin:auto}
+svg{max-width:100%;height:auto;max-height:170px;display:block;margin:auto}
+.larga svg{max-height:260px;width:100%}
 .vazio{font-size:.8rem;color:#cfe0ff;padding:12px 0}
 @media(max-width:1000px){.grid{grid-template-columns:1fr}.filtros{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}.kpi{grid-column:1/-1}}
+@media(max-width:1000px){.centro{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.centro{grid-template-columns:1fr}}
