@@ -1,0 +1,17 @@
+// Dados FICTÍCIOS de exemplo. Para usar os dados reais, exporte a tabela tb_rh do Power BI
+// (colunas: ID, NOME, SEXO, IDADE, FILIAL, DEPARTAMENTO, SALARIO, CONTRATAÇÕES FEITAS, QTDE FALTA)
+// e substitua as linhas abaixo mantendo os mesmos nomes de campo.
+window.TB_RH = [
+ {ID:1,NOME:"Ana Souza",SEXO:"Feminino",IDADE:29,FILIAL:"Belo Horizonte",DEPARTAMENTO:"RH",SALARIO:4200,CONTRATACOES:2,FALTAS:1},
+ {ID:2,NOME:"Bruno Lima",SEXO:"Masculino",IDADE:34,FILIAL:"Belo Horizonte",DEPARTAMENTO:"Financeiro",SALARIO:5600,CONTRATACOES:0,FALTAS:3},
+ {ID:3,NOME:"Carla Mendes",SEXO:"Feminino",IDADE:41,FILIAL:"Uberlândia",DEPARTAMENTO:"Compras",SALARIO:4800,CONTRATACOES:1,FALTAS:0},
+ {ID:4,NOME:"Daniel Rocha",SEXO:"Masculino",IDADE:26,FILIAL:"Uberlândia",DEPARTAMENTO:"Operações",SALARIO:3100,CONTRATACOES:0,FALTAS:5},
+ {ID:5,NOME:"Elisa Prado",SEXO:"Feminino",IDADE:38,FILIAL:"Montes Claros",DEPARTAMENTO:"Financeiro",SALARIO:6100,CONTRATACOES:1,FALTAS:2},
+ {ID:6,NOME:"Fábio Neves",SEXO:"Masculino",IDADE:45,FILIAL:"Montes Claros",DEPARTAMENTO:"Operações",SALARIO:3500,CONTRATACOES:0,FALTAS:4},
+ {ID:7,NOME:"Gabriela Dias",SEXO:"Feminino",IDADE:31,FILIAL:"Belo Horizonte",DEPARTAMENTO:"Compras",SALARIO:4500,CONTRATACOES:3,FALTAS:0},
+ {ID:8,NOME:"Heitor Alves",SEXO:"Masculino",IDADE:23,FILIAL:"Uberlândia",DEPARTAMENTO:"RH",SALARIO:3900,CONTRATACOES:0,FALTAS:2},
+ {ID:9,NOME:"Isabela Cruz",SEXO:"Feminino",IDADE:36,FILIAL:"Montes Claros",DEPARTAMENTO:"RH",SALARIO:4400,CONTRATACOES:2,FALTAS:1},
+ {ID:10,NOME:"João Pereira",SEXO:"Masculino",IDADE:52,FILIAL:"Belo Horizonte",DEPARTAMENTO:"Operações",SALARIO:3700,CONTRATACOES:0,FALTAS:6},
+ {ID:11,NOME:"Karina Melo",SEXO:"Feminino",IDADE:28,FILIAL:"Uberlândia",DEPARTAMENTO:"Financeiro",SALARIO:5200,CONTRATACOES:1,FALTAS:0},
+ {ID:12,NOME:"Lucas Barros",SEXO:"Masculino",IDADE:33,FILIAL:"Montes Claros",DEPARTAMENTO:"Compras",SALARIO:4600,CONTRATACOES:0,FALTAS:3}
+];

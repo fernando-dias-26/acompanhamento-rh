@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Acompanhamento de RH · Dashboard descritiva</title>
+<meta name="description" content="Dashboard de acompanhamento de RH: colaboradores, gênero, massa salarial e faltas por filial e departamento.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div><h1>Acompanhamento de RH</h1><p>Dashboard descritiva</p></div>
+  <span class="aviso">Dados fictícios de exemplo</span>
+</header>
+<main class="grid">
+  <aside class="filtros">
+    <div class="card kpi"><span>Total de colaboradores</span><strong id="kpi">0</strong></div>
+    <label>Nome<select id="f-nome"></select></label>
+    <label>Filial<select id="f-filial"></select></label>
+    <label>Departamento<select id="f-depto"></select></label>
+    <label>Contratações feitas<select id="f-contr"></select></label>
+    <label>Qtde de faltas<select id="f-faltas"></select></label>
+    <button id="limpar" type="button">Limpar filtros</button>
+  </aside>
+  <section class="centro">
+    <div class="card"><h2>Funcionários por gênero</h2><div id="c-genero"></div></div>
+    <div class="card"><h2>Salário por filial</h2><div id="c-sal-filial"></div></div>
+    <div class="card"><h2>Faltas por filial</h2><div id="c-falt-filial"></div></div>
+    <div class="card larga"><h2>Salário por departamento</h2><div id="c-sal-depto"></div></div>
+  </section>
+  <section class="card direita"><h2>Salário por colaborador</h2><div id="c-sal-nome"></div></section>
+</main>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
